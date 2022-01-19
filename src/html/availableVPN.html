@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Available VPN</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="icon" type="images/x-icon" href="../assets/favicon1.ico">
+    <link rel="stylesheet" href="../css/availableVPN.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+  <body>
+    <!--navbar -->
+    <div class="w3-top">
+      <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+        <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="profile.html" class="w3-bar-item w3-button w3-padding-large w3-white">Profile</a>
+        <a href="editAccount.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Edit Account</a>
+        <a href="availableVPN.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Display VPN available</a>
+        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">See Online Tuto</a>
+        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Managment of connection profile</a>
+      </div>
+
+      <!-- Navbar on small screens -->
+      <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+        <a href="profile.html" class="w3-bar-item w3-button w3-padding-large">Profile</a>
+        <a href="editAccount.html" class="w3-bar-item w3-button w3-padding-large">Edit Account</a>
+        <a href="availableVPN.html" class="w3-bar-item w3-button w3-padding-large">Display VPN available</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large">See Online Tuto</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large">Managment of connection profile</a>
+      </div>
+    </div>
+
+    <!--List VPN -->
+    <div class="container">
+      <h1>List of all available VPN</h1>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Name of network</th>
+            <th scope="col">IP + port</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td scope="row">Cyber class</td>
+            <td><button class="btn btn-primary" type="submit">123.48.58.2:5555</button></td>
+          </tr>
+        </tbody>
+    </table>
+
+    
+  </body>
+</html>
